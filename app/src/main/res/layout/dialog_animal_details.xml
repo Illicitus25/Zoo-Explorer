@@ -1,0 +1,74 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp"
+    android:background="@drawable/rounded_bg_white">
+
+    <ImageView
+        android:id="@+id/animal_popup_image"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/close_popup"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/ic_close"
+        android:layout_margin="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/popup_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Zoya - Amur Tiger"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@id/animal_popup_image"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/popup_habitat"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Habitat: Asian Wilderness"
+        app:layout_constraintTop_toBottomOf="@id/popup_name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/popup_status"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Conservation Status: Endangered"
+        app:layout_constraintTop_toBottomOf="@id/popup_habitat"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/popup_feeding"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Feeding Time: 2PM"
+        app:layout_constraintTop_toBottomOf="@id/popup_status"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/popup_about"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="About: Zoya is a fierce and majestic..."
+        app:layout_constraintTop_toBottomOf="@id/popup_feeding"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="8dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

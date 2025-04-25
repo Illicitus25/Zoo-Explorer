@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Zoo Explorer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enhance">Enhance your zoo visits with interactive maps, animal information, event schedules, and personalized reccomendations.</string>
+    <string name="event1des">This spring, experience the Zoo in a whole new light—after dark! Once the gates close for the day, stroll through a mesmerizing display of floral and animal-themed lanterns that illuminate the night. Plus, you can savor delicious Asian-inspired bites and sips as you take in the stunning sights. Your visit supports vital wildlife conservation efforts and the Zoo’s mission to inspire a love for nature. Don’t miss this enchanting after-hours adventure!</string>
+    <string name="event2des">Saddle up for a night to remember Dust off your boots and shine up your sequins—it’s time to hit the dance floor at Adult Prom! This year, the Zoo’s Mansion House Porch is transforming into the ultimate mashup of glitter, groove, and giddy-up for a night of high-energy fun. Round up your herd and get ready to two-step and hustle under the disco lights, with music, classic prom traditions, and a dazzling mix of cowboy cool and funky flair that’ll keep you dancing ‘til the cows come home!</string>
+    <string name="zooOpen">The Zoo is open rain or shine! We are closed on Thanksgiving and Christmas Day, but open on all other holidays. Please visit the homepage and read ALERTS for any weather-related closing.</string>
+    <string name="zoyades">Get to know Zoya, our powerful and graceful Amur Tiger. Native to the Russian Far East, Amur Tigers are the largest of all tiger species and are known for their thick fur and quiet strength. Visit her in the Asian Forest exhibit and learn how we’re helping protect these endangered giants.</string>
+    <string name="jamalDes">Meet Jamal, our graceful reticulated giraffe with a taste for crunchy leaves and lazy afternoon strolls. With his long neck and gentle eyes, Jamal is a favorite among kids and adults alike. Watch as he stretches sky-high to snack on treetop treats — it’s a sight you won’t forget!</string>
+    <string name="pebblesDes">Pebbles may be small, but she’s full of personality! This playful African penguin loves to swim, waddle around her colony, and curiously watch visitors from her rocky perch. Despite living far from the icy poles, Pebbles is perfectly suited to Maryland’s climate — cool, charming, and always a crowd-pleaser.</string>
+    <string name="visitor_tips">
+    ➜ Arrive early to make the most of your visit and catch animal feedings.\n\n
+    ➜ Wear comfortable walking shoes — the zoo covers a lot of ground!\n\n
+    ➜ Stay hydrated — water stations are available throughout the zoo.\n\n
+    ➜ Don’t forget sunscreen and hats, especially on sunny days.\n\n
+    ➜ Download the zoo map or use our interactive version to plan your route.\n\n
+    ➜ Check the event schedule at the entrance or via the app for special shows.
+</string>
+</resources>

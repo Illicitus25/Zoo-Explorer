@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/Beige"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/animalImage"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/parrot"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/closeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_close"
+        android:contentDescription="Close"
+        android:background="@android:color/transparent"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="12dp" />
+
+    <TextView
+        android:id="@+id/animalName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Echo"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/Black"
+        app:layout_constraintTop_toBottomOf="@id/animalImage"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/animalType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="African Grey Parrot"
+        android:textSize="16sp"
+        android:textColor="@color/DarkGreen"
+        app:layout_constraintTop_toBottomOf="@id/animalName"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:id="@+id/animalHabitat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tropical Aviary"
+        android:background="@drawable/chip_background"
+        android:backgroundTint="#f5e9d9"
+        android:paddingHorizontal="8dp"
+        android:paddingVertical="4dp"
+        android:textColor="@color/Orange"
+        app:layout_constraintTop_toBottomOf="@id/animalType"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="8dp" />
+
+    <!-- About Section -->
+
+    <TextView
+        android:id="@+id/animalCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/chip_background"
+        android:backgroundTint="#e3ede2"
+        android:padding="8dp"
+        android:textStyle="bold"
+        android:text="Birds"
+        android:textColor="@color/DarkGreen"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/animalImage" />
+
+    <TextView
+        android:id="@+id/aboutLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="@color/Black"
+        app:layout_constraintTop_toBottomOf="@id/animalHabitat"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/animalDescription"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Description goes here"
+        android:textColor="@color/Grey"
+        app:layout_constraintTop_toBottomOf="@id/aboutLabel"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="4dp" />
+
+    <!-- Conservation Status -->
+    <TextView
+        android:id="@+id/conservationLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Conservation Status"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="@color/Black"
+        app:layout_constraintTop_toBottomOf="@id/animalDescription"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/animalStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Protected Species"
+        android:background="@drawable/chip_background"
+        android:backgroundTint="#ddf1ef"
+        android:padding="8dp"
+        android:textColor="@color/LightBlue"
+        app:layout_constraintTop_toBottomOf="@id/conservationLabel"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="4dp" />
+
+    <!-- Feeding Time -->
+    <TextView
+        android:id="@+id/feedingLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Feeding Times"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="@color/Black"
+        app:layout_constraintTop_toBottomOf="@id/animalStatus"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/animalFeedingTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10:00 AM and 3:00 PM Daily"
+        android:textColor="@color/Grey"
+        app:layout_constraintTop_toBottomOf="@id/feedingLabel"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="16dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

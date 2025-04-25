@@ -1,0 +1,48 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/animal_image"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_launcher_background" />
+
+        <TextView
+            android:id="@+id/animal_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Zoya"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="@color/Black"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:id="@+id/animal_species"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Amur Tiger"
+            android:textColor="@color/Grey"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/animal_habitat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Asian Wilderness"
+            android:textColor="@color/Grey"
+            android:textSize="14sp" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

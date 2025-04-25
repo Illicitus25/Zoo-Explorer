@@ -27,7 +27,7 @@ This app was developed as part of a college project to demonstrate practical mob
 
 ## 📸 Screenshots
 
-[![Zoo Explorer Demo](https://drive.google.com/file/d/1HsXyXt0xrciZK4xz2EUqMF1L41NbJ2xQ/view?usp=drive_link)
+[![Zoo Explorer Demo]](https://drive.google.com/file/d/1HsXyXt0xrciZK4xz2EUqMF1L41NbJ2xQ/view?usp=drive_link)
 
 ## 🚀 Getting Started
 
